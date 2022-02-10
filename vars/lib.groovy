@@ -1,14 +1,14 @@
 def SimpleHelloFromLib() {
-    echo "Hallo from lib! Just for testing."
+    echo "1. Hallo from lib! Just for testing."
     script {
-        bat "echo Hallo from lib! Just for testing."
+        bat "2. echo Hallo from lib! Just for testing."
     }
 }
 
 def HalloFromLib(name) {
-    echo "Hallo from lib, ${name}!"
+    echo "1. Hallo from lib, ${name}!"
     script {
-        bat "echo Hallo from lib, ${name}!"
+        bat "2. echo Hallo from lib, ${name}!"
     }
 }
 
